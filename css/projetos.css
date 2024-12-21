@@ -7,7 +7,15 @@
 
   #title-projects {
     font-size: 30px;
-    text-shadow: 2px 2px 4px #54b689;
+    text-shadow: 
+  1.4px 1.4px 0 #54b689,    /* Inferior direito */
+  -1.4px -1.4px 0 #54b689,  /* Superior esquerdo */
+  -1.4px 1.4px 0 #54b689,   /* Inferior esquerdo */
+  1.4px -1.4px 0 #54b689,   /* Superior direito */
+  0 1.4px 0 #54b689,        /* Inferior */
+  1.4px 0 0 #54b689,        /* Direito */
+  -1.4px 0 0 #54b689,       /* Esquerdo */
+  0 -1.4px 0 #54b689;       /* Superior */
     text-align: center;
   }
   
