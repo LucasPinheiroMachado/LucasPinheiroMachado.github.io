@@ -8,14 +8,14 @@
   #title-projects {
     font-size: 30px;
     text-shadow: 
-  1.4px 1.4px 0 #54b689,    /* Inferior direito */
-  -1.4px -1.4px 0 #54b689,  /* Superior esquerdo */
-  -1.4px 1.4px 0 #54b689,   /* Inferior esquerdo */
-  1.4px -1.4px 0 #54b689,   /* Superior direito */
-  0 1.4px 0 #54b689,        /* Inferior */
-  1.4px 0 0 #54b689,        /* Direito */
-  -1.4px 0 0 #54b689,       /* Esquerdo */
-  0 -1.4px 0 #54b689;       /* Superior */
+  1px 1px 0 black,
+  -1px -1px 0 black,
+  -1px 1px 0 black,
+  1px -1px 0 black,
+  0 1px 0 black,
+  1px 0 0 black,
+  -1px 0 0 black,
+  0 -1px 0 black;
     text-align: center;
   }
   
@@ -150,6 +150,9 @@
   @media (max-width: 620px) {
     #projects-container {
       margin-left: 0%; /* Remove o deslocamento à esquerda */
+    }
+    #title-projects{
+      font-size: 27px;
     }
   }
   
