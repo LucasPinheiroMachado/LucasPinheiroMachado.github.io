@@ -5,9 +5,9 @@
     margin-top: 20px;
   }
 
-  #tile-projects {
+  #title-projects {
     font-size: 30px;
-    text-shadow: 2px 2px 4px rgba(0, 255, 0, 0.5);
+    text-shadow: 2px 2px 4px #54b689;
     text-align: center;
   }
   
