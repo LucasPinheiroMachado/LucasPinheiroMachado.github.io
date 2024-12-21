@@ -127,6 +127,12 @@
   margin-bottom: 10px;
 }
 
+.projectsAndCurriculum-btn {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 #btn-projects {
   font-weight: bold;
   font-size: 16px;
@@ -138,9 +144,12 @@
   transition: 0.5s;
   margin: 25px 0;
   padding: 12px 10px;
-  width: 150px;
+  width: 170px;
   text-align: center;
   display: flex;
+  margin-right: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 #btn-projects ion-icon,
@@ -151,10 +160,45 @@
 #btn-projects ion-icon {
   font-size: 20px;
   max-width: 20px;
+  margin-right: 1px
 }
 
 #btn-projects:hover {
   background-color: transparent;
+}
+
+/* Botão Baixar Currículo */
+#btn-curriculum {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--main-text-color);
+  background-color: transparent;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+  margin: 25px 0;
+  padding: 12px 10px;
+  width: 170px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-curriculum ion-icon,
+#btn-curriculum span {
+  flex: 1 1 0;
+}
+
+#btn-curriculum ion-icon {
+  font-size: 20px;
+  max-width: 20px;
+  margin-right: 1px
+}
+
+#btn-curriculum:hover {
+  background-color: var(--main-color);
 }
 
 #skills-section-title {
@@ -262,8 +306,19 @@
     line-height: 26px;
   }
 
+  .projectsAndCurriculum-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   #btn-projects {
-    margin: 20px auto;
+    margin-right: 5px;
+  }
+
+  #btn-projects, #btn-curriculum{
+    width: 160px;
+    font-size: 13px;
   }
 
   .skills-box {
@@ -285,5 +340,10 @@
 @media (max-width: 360px) {
   .skills-box i {
     font-size: 50px;
+  }
+
+  #btn-projects, #btn-curriculum{
+    width: 155px;
+    font-size: 11.5px;
   }
 }
