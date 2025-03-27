@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projetos</title>
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
-    <!-- Dev Icon Fonts -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
-    <!-- CSS do Projeto -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/projetos.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos - Lucas Machado</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- Dev Icon Fonts -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+  <!-- Ionicons Custom CSS -->
+  <link rel="stylesheet" href="ionicons/css/ionicons.css">
+  <!-- CSS do Projeto -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/projetos.css">
 </head>
 <body>
   <main id="container">
@@ -23,30 +25,28 @@
       <ul id="social-container">
         <li>
           <a href="https://wa.me/+5522998192570" target="_blank" rel="noopener noreferrer">
-            <ion-icon name="logo-whatsapp"></ion-icon>
+            <i class="icon ion-logo-whatsapp"></i>
           </a>
         </li>
         <li>
           <a href="https://www.linkedin.com/in/lucas-machado-ba1861319/" target="_blank" rel="noopener noreferrer">
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <i class="icon ion-logo-linkedin"></i>
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/lucas_machadoz/" target="_blank" rel="noopener noreferrer">
-            <ion-icon name="logo-instagram"></ion-icon>
+            <i class="icon ion-logo-instagram"></i>
           </a>
         </li>
         <li>
-          <a 
-            href="https://github.com/LucasPinheiroMachado" 
-            target="_blank" 
-            rel="noopener noreferrer">
-            <ion-icon name="logo-github"></ion-icon>
+          <a href="https://github.com/LucasPinheiroMachado" target="_blank" rel="noopener noreferrer">
+            <i class="icon ion-logo-github"></i>
           </a>
         </li>
       </ul>
       <div id="email-container">
-        <ion-icon name="mail-outline"></ion-icon><a href="mailto:lucaslpma10@gmail.com">lucaslpma10@gmail.com</a>
+        <i class="icon ion-md-mail"></i>
+        <a href="mailto:lucaslpma10@gmail.com">lucaslpma10@gmail.com</a>
       </div>
     </aside>
     <section id="projects-container">
@@ -54,11 +54,13 @@
         <div class="project">
           <img src="img/bitpin.png" alt="Projeto 1">
           <h3>Site BitPin</h3>
-          <p>Site criado para a empresa BitPin mostrar e receber solicitações de seus serviços, além de ter uma página sobre a empresa. A BitPin tem acesso privado aos formulários enviados.</p>
+          <p>
+            Site criado para a empresa BitPin mostrar e receber solicitações de seus serviços, além de ter uma página sobre a empresa. A BitPin tem acesso privado aos formulários enviados.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://www.bitpin.com.br" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Site-BitPin" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -66,13 +68,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/chat_system.png" alt="chat system">
+          <img src="img/chat_system.png" alt="Chat Comercial">
           <h3>Chat Comercial</h3>
-          <p>Sistema de chat para empresas feito em PHP, React.js e MySQL. O projeto conta com funcionalidades como login e logout, página de conversas organizadas, uma listagem completa de usuários cadastrados, um campo de busca para encontrar usuários rapidamente e um chat em tempo real para troca de mensagens entre dois usuários. A comunicação ocorre de forma instantânea, garantindo uma experiência fluida e eficiente.</p>
+          <p>
+            Sistema de chat para empresas feito em PHP, React.js e MySQL. O projeto conta com funcionalidades como login, logout, listagem de usuários e chat em tempo real.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://chatcomercial.kesug.com/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Chat-Comercial" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -80,13 +84,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/EspacoDivas.png" alt="Projeto 4">
+          <img src="img/EspacoDivas.png" alt="Site Espaço Divas">
           <h3>Site Espaço Divas</h3>
-          <p>Desenvolvido em React.js e Firebase, o site oferece uma interface intuitiva onde os clientes podem visualizar os serviços e agendar horários disponíveis, com controle em tempo real da agenda. A integração com o Firebase garante que apenas horários disponíveis possam ser agendados. Os donos do salão têm acesso a um painel administrativo para gerenciar todos os agendamentos. Com design responsivo e fácil navegação, o site proporciona praticidade e eficiência para clientes e proprietários.</p>
+          <p>
+            Desenvolvido em React.js e Firebase, o site permite aos clientes visualizar serviços, agendar horários e oferece painel administrativo para gerenciamento de agendamentos.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://espacodivas.netlify.app/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Site-Espaco-Divas" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -94,13 +100,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/gmidi.png" alt="Projeto 2">
+          <img src="img/gmidi.png" alt="Site GMIDI">
           <h3>Site GMIDI</h3>
-          <p>Site criado para o influenciador GMIDI, o site apresenta os produtos do influenciador, tem um blog e jogos integrados, além de fornecer os contatos profissionais do GMIDI.</p>
+          <p>
+            Site criado para o influenciador GMIDI, apresentando produtos, blog, jogos integrados e contatos profissionais.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://www.gmidi.com.br" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Site-GMIDI" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -108,13 +116,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/jogoDaMemoria.png" alt="Projeto 3">
+          <img src="img/jogoDaMemoria.png" alt="Jogo da Memória">
           <h3>Jogo da Memória</h3>
-          <p>Jogo da memória desenvolvido em JavaScript, possui dois modos de jogo (realista e cartoon), após iniciar o jogador tem 5 segundos para memorizar as posições.</p>
+          <p>
+            Jogo da memória desenvolvido em JavaScript com dois modos (realista e cartoon). O jogador tem 5 segundos para memorizar as posições.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://jogo-da-memoria-realxcartoon.vercel.app/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/jogo-da-memoria-ofc" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -122,13 +132,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/jogoPalavraSecreta.png" alt="Projeto 4">
+          <img src="img/jogoPalavraSecreta.png" alt="Jogo da Palavra Secreta">
           <h3>Jogo da Palavra Secreta</h3>
-          <p>Jogo de adivinhar a palavra feito em React.js, a cada acerto o jogador ganha 100 pontos e uma vida (caso esteja abaixo de 5), se perder todas as vidas perde.</p>
+          <p>
+            Jogo de adivinhar a palavra feito em React.js, onde a cada acerto o jogador ganha pontos e vidas, e ao errar, perde.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://jogo-palavra-secreta-sandy.vercel.app/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Jogo-palavra-secreta" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -136,13 +148,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/tiroAoAlvo.jpg" alt="Projeto 5">
+          <img src="img/tiroAoAlvo.jpg" alt="Jogo Tiro ao Alvo">
           <h3>Jogo Tiro ao Alvo</h3>
-          <p>Jogo feito em Next.js onde o jogador fica no centro do local de combate e os alvos vêm em sua direção. Para eliminar os alvos basta mirar com o mouse e clicar em cima do alvo. Caso o alvo chegue até o jogador, ele perde uma ou duas vidas.</p>
+          <p>
+            Jogo feito em Next.js onde o jogador deve eliminar os alvos que se aproximam. Se os alvos alcançarem o jogador, ele perde vidas.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://jogo-tiro-ao-alvo-rho.vercel.app/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Jogo-Tiro-Ao-Alvo" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -150,13 +164,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/grafos.png" alt="Projeto 6">
+          <img src="img/grafos.png" alt="Gerador de Grafos">
           <h3>Gerador de Grafos</h3>
-          <p>Sistema feito em JavaScript para gerar grafos direcionais não ponderados e não direcionais ponderados, possui algoritmos de ordenação topológica, componentes fortemente conectados, Dijkstra e A*.</p>
+          <p>
+            Sistema feito em JavaScript para gerar grafos direcionais e não direcionais, com algoritmos de ordenação topológica, Dijkstra e A*.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="https://algoritimos-em-grafos.vercel.app/" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/AlgoritimosEmGrafos" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -164,13 +180,15 @@
           </div>
         </div>
         <div class="project">
-          <img src="img/listaDeContatos.png" alt="Projeto 8">
+          <img src="img/listaDeContatos.png" alt="Lista de Contatos">
           <h3>Lista de Contatos</h3>
-          <p>Sistema desenvolvido em HTML, CSS, PHP e MySQL para gerenciar uma lista de contatos. Permite cadastrar, editar, visualizar e excluir contatos, armazenando nome e número de telefone em um banco de dados. O projeto inclui um CRUD completo com interface intuitiva e funcional.</p>
+          <p>
+            Sistema desenvolvido em HTML, CSS, PHP e MySQL para gerenciar uma lista de contatos com CRUD completo e interface intuitiva.
+          </p>
           <a href="javascript:void(0);" class="read-more">...Ler mais</a>
           <div class="project-buttons">
             <a href="http://lucasprojects.kesug.com/index.php" target="_blank" class="project-btn">
-              <ion-icon name="planet-outline"></ion-icon> Site
+              <i class="icon ion-planet-outline"></i> Site
             </a>
             <a href="https://github.com/LucasPinheiroMachado/Lista-de-Contatos" target="_blank" class="project-btn" id="github-btn">
               <i class="devicon-github-original"></i> GitHub
@@ -180,7 +198,6 @@
       </div>
     </section>
   </main>
-  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
   <script src="javascript/app.js"></script>
 </body>
 </html>

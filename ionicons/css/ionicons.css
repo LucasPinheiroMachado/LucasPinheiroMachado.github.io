@@ -1,0 +1,52 @@
+/* Estilo base para os ícones, replicando os defaults do CDN */
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  vertical-align: middle;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Ícones – utilize os nomes conforme os arquivos SVG baixados */
+
+/* WhatsApp */
+.ion-logo-whatsapp {
+  background-image: url('../logo-whatsapp.svg');
+}
+
+/* LinkedIn */
+.ion-logo-linkedin {
+  background-image: url('../logo-linkedin.svg');
+}
+
+/* Instagram */
+.ion-logo-instagram {
+  background-image: url('../logo-instagram.svg');
+}
+
+/* GitHub */
+.ion-logo-github {
+  background-image: url('../logo-github.svg');
+}
+
+/* E-mail – ícone de mail-outline no CDN costumava ser "ion-md-mail" ou similar */
+.ion-md-mail {
+  background-image: url('../mail.svg');
+}
+
+/* Share – para compartilhar (usado no botão "Ver Projetos") */
+.ion-md-share {
+  background-image: url('../share-social-outline.svg');
+}
+
+/* Cloud Download – para baixar o currículo */
+.ion-md-cloud-download {
+  background-image: url('../cloud-download-outline.svg');
+}
+
+/* Planet Outline – para indicar "Site" nos projetos */
+.ion-planet-outline {
+  background-image: url('../planet-outline.svg');
+}
